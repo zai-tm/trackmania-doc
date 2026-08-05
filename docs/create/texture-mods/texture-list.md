@@ -8,14 +8,14 @@ This is a living document - if you see something inaccurate/missing, feel free t
 | :-: | :-: | :-: | :-: | :-: |
 | \_D | Diffuse | DDS (BC1)<br>DDS (BC3 if transparent) | Base image/texture |
 | \_H | | DDS (BC1) | Height | Grey `(128,128,128)` is level<br>Black `(0,0,0)` lowers elevations<br>White `(255,255,255)` raises elevation
-| \_I | Ilium | | InsideColor<br>Colorization of things behind glass | Multiplication before applying glass layers
+| \_I | Illum | | Self-illumination, texture glows but doesn't emit light | 
 | \_L | | | Color of lightbulbs/LEDs | Displaced by `_H`
 | \_M | | DDS (BC1) | Mask (black/white) | Color is determined by `DecalPaint_D`
 | \_N | Normal | DDS (BC5) | Texture that stores a direction at each pixel
-| \_O |
-| \_R | Roughness | DDS (BC5) | Roughness (matte/shiny)<br>Metallic | Can be kept as greyscale (BC1) if not used.
-| \_T |
-| \_X2 | | DDS (BC1) | Large overlay for color values | Upscaled texture for `CustomMaterial` projection
+| \_O | | | Texture overlaid on top of glass (grayscale)
+| \_R | Roughness | DDS (BC5) | Roughness (matte/shiny)<br>Metallic | Can be kept as greyscale (BC1) if not used<br> Red channel is used for roughness, green channel is used for metallic
+| \_T | | | Glass color
+| \_X2 | | DDS (BC1) | Large overlay for color values |
 
 ### Hue Masks
 
