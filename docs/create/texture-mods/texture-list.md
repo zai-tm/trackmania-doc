@@ -351,5 +351,5 @@ Notes:
 Note: 
 TBC
 
-Last updated on the 24th of May 2024 (Desert Update).
-Last edited by MarsyTM
+Last updated on 5 August 2026.
+Last edited by Zai
