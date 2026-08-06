@@ -190,9 +190,9 @@ These textures determine what is tintable and what isn't - they use the RGB chan
 | LightShape | Light shape items | _D | _H | _I | _L || _N || _R |||| 
 | LightSpot | Lights | _D | _H | _I | _L || _N || _R |||| 
 | LightSpot2 | Lights | _D | _H || _L || _N || _R |||| 
-| LightTubeBig^3^ | Light tube items |||||||||||| 
+| LightTubeBig | Light tube items |||||||||||| 
 | LightTubeRefract | Light tube items refraction ||| _I ||||||||| 
-| LightTubeSmall^3^ | Light tube items |||||||||||| 
+| LightTubeSmall | Light tube items |||||||||||| 
 | LightTube | Light tube items | _D || _I ||| _N || _R |||| 
 | OpenDirtBorders | Open dirt road borders | _D ||||||||||| 
 | OpenGrassBorders | Open grass road borders | _D ||||||||||| 
