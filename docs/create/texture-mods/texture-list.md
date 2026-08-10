@@ -323,7 +323,7 @@ Notes:
 - Structure contains a _D.tga HueMask.
 - TrackBorders _I is a .tga file rather than a .dds file. 
 
-<!-- TODO
+
 ## 📁 Moods
 | **Name** | **Used For** |
 |:-:|:-:|
@@ -336,7 +336,7 @@ Notes:
 | Mood.MoodSetting.xml | Determines parameters for the mood lighting. For more info see [this documentation page](https://doc.maniaplanet.com/title-pack/mood)
 | SkyClouds | Cloud textures
 | SkyColor | Skybox texture (DDS BC6U)
--->
+
 
 ## Car Effects
 
